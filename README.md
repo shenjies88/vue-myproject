@@ -1,29 +1,24 @@
-# vue-myproject
+## Vue脚手架简单实践
 
-## Project setup
+### 所用框架
+
+- Vue.js
+- Vuex
+- Vue-router
+- IView
+
+### 安装依赖
+
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### 开发运行
 ```
 yarn run serve
 ```
 
-### Compiles and minifies for production
+### 生产运行
 ```
 yarn run build
 ```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
