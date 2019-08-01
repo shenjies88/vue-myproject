@@ -1,6 +1,6 @@
 <style scoped lang="less">
     .layout {
-        // border: 1px solid #d7dde4;
+        border: 1px solid #d7dde4;
         background: #f5f7f9;
         position: relative;
         overflow: hidden;
