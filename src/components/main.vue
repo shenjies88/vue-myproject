@@ -53,7 +53,7 @@
     <div class="layout">
         <Sider :style="{position: 'fixed', height: '100vh', left: 0, overflow: 'auto'}">
             <div class="logo-con">
-                <span>我的脚手架</span>
+                <span>脚手架</span>
             </div>
             <Menu theme="dark" width="auto" accordion :open-names="openName" :active-name="$route.name">
                 <Submenu :name="s.name" v-for="(s, index) in $router.options.routes" :key="index">
