@@ -18,7 +18,7 @@ yarn install
 yarn run serve
 ```
 
-### 生产运行
+### docker运行
 ```
-yarn run build
+./deploy
 ```
