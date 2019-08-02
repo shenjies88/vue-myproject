@@ -1,0 +1,3 @@
+#!/bin/sh
+cd `dirname $0`
+yarn build && docker build -t vue-image:v1 . && docker run --name vue-container -p 3000:80 -d vue-image:v1
