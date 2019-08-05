@@ -18,6 +18,11 @@ yarn install
 yarn run serve
 ```
 
+### 生产编译发布
+```
+yarn run build
+```
+
 ### docker运行
 ```
 ./deploy
