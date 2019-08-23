@@ -7,11 +7,6 @@
 <script>
     export default {
         name: 'home-nav',
-        data() {
-            return {
-                message: ''
-            }
-        },
         computed: {
             get: function () {
                 this.$axios.get('/shenjies88').then(data => {
