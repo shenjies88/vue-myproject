@@ -1,2 +1,4 @@
 #!/bin/sh
-docker stop vue-container && docker rm vue-container && docker image rm vue-image:v1
+docker stop vue-container \
+&& docker rm vue-container \
+&& docker image prune
