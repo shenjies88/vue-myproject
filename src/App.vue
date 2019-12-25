@@ -5,13 +5,9 @@
 </template>
 
 <script>
-import Main from '_c/main'
 
 export default {
-  name: 'app',
-  components: {
-    Main
-  }
+  name: 'app'
 }
 </script>
 
